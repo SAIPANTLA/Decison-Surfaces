@@ -43,7 +43,7 @@ def generate_overlap(n_samples):
     return X, y
 
 #Inno Logo
-st.image(r"C:\Users\SK\Downloads\innomaticslogo.png")
+st.image(r"innomaticslogo.png")
 
 # Set the title of the app
 st.title("Decision Surfaces Visualization")
