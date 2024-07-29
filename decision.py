@@ -70,7 +70,7 @@ n_samples = 500
 
 # Add sliders to the sidebar based on the dataset
 if dataset_name == "Moons":
-    X, y = make_circles(n_samples,noise=noise)
+    X, y = make_moons(n_samples,noise=noise)
 
 elif dataset_name == "Blobs":
     X, y = make_blobs(n_samples,cluster_std=st.sidebar.slider("Cluster Std",0.0,5.0,1.0,0.1))
